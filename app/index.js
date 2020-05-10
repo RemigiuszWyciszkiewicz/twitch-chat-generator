@@ -64,7 +64,7 @@ async function saveChatToFiles(contentOffset) {
   const vodinfo = await getVodInfo();
 
   const totalContentOffset = getVodTotalContentOffset(vodinfo);
-  console.log(totalContentOffset)
+  //console.log(totalContentOffset)
 
 
   if (getLastContentOffset(response) < totalContentOffset) {
